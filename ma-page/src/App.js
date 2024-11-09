@@ -7,7 +7,7 @@ import resumeIcon from './imgs/resume_icon.png';
 function App() {
 
   return (
-      <div className="relative min-h-screen bg-gradient-to-br from-gradientStart via-gradientMid via-gradientMid2 to-gradientEnd animate-gradient bg-fixed bg-cover bg-[400%_400%] flex items-center justify-center">
+      <div className="relative overflow-hidden min-h-screen bg-gradient-to-br from-gradientStart via-gradientMid via-gradientMid2 to-gradientEnd animate-gradient bg-fixed bg-cover bg-[400%_400%] flex items-center justify-center">
         {/* Waves */}
         <div className="absolute bottom-0 left-0 w-[200%] h-48 bg-white opacity-5 rounded-[1000%_1000%_0_0] animate-wave"></div>
         <div className="absolute bottom-0 left-0 w-[200%] bg-white h-48 opacity-10 rounded-[1000%_1000%_0_0] animate-waveAlt"></div>
